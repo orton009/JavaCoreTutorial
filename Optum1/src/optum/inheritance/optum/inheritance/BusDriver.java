@@ -1,4 +1,3 @@
-package optum.inheritance;
 
 public class BusDriver {
 	int licenseNo;
