@@ -1,3 +1,5 @@
+package optum.inheritance;
+
 
 public class Bus extends FourWheeler{
 	public Bus(String company ,int capacity ,  String name, int licenseNo) {
