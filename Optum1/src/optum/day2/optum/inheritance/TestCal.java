@@ -1,4 +1,4 @@
-package optum.inheritance;
+package optum.day2.optum.inheritance;
 
 public class TestCal implements Calculator {
 	public void add(int a,int b) {

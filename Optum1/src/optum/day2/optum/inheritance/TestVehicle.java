@@ -1,4 +1,4 @@
-package optum.inheritance;
+package optum.day2.optum.inheritance;
 
 public class TestVehicle {
 	public static void main(String[] args) {

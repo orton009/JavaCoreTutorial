@@ -1,4 +1,4 @@
-package optum.inheritance;
+package optum.day2.optum.inheritance;
 
 public class TwoWheeler extends Vehicle {
 	@Override
