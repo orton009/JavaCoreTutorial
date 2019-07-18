@@ -32,3 +32,12 @@ public class MyThread  extends Thread{
 		
 	}
 }
+
+/*
+ * Synchronization in JAva
+ *  synchronized function
+ *  synchronized(){}  -> block
+ * 
+ * 
+ * */
+ 
