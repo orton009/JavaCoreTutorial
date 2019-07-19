@@ -1,10 +1,17 @@
 package optum.day2.optum.inheritance;
 
-public class Car extends FourWheeler implements Movable {
+import java.io.Serializable;
+
+public class Car extends FourWheeler implements Movable , Serializable {
 	int distance=0;
 	public Car() {}
 	public Car(String company , int price , String color) {
 		super(company,price,color);
+	}
+	
+	@Override
+	public String toString() {
+		return "Car [getColor()=" + getColor() + ", getPrice()=" + getPrice() + ", getCompany()=" + getCompany() + "]";
 	}
 	public void move(int distance) {
 		this.distance += distance ;

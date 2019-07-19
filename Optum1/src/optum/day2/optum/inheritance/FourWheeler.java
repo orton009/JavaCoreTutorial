@@ -1,6 +1,8 @@
 package optum.day2.optum.inheritance;
 
-public class FourWheeler extends Vehicle {
+import java.io.Serializable;
+
+public class FourWheeler extends Vehicle implements Serializable{
 	private int price ;
 	private String color;
 	

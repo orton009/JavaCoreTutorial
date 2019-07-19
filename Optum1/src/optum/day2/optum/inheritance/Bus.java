@@ -1,12 +1,14 @@
 package optum.day2.optum.inheritance;
 
-import java.util.Arrays;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class Bus extends FourWheeler{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public Bus(String company ,int capacity ,  String name, int licenseNo) {
 		this.capacity = capacity ;
 		this.company = company ;

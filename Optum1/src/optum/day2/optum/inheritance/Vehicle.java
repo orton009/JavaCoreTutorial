@@ -1,6 +1,8 @@
 package optum.day2.optum.inheritance ;
 
-public class Vehicle {
+import java.io.Serializable;
+
+public class Vehicle implements Serializable{
 	@Override
 	public String toString() {
 		return "Vehicle [Company=" + Company + "]";
