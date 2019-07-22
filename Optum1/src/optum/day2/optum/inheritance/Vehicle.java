@@ -3,6 +3,11 @@ package optum.day2.optum.inheritance ;
 import java.io.Serializable;
 
 public class Vehicle implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public String toString() {
 		return "Vehicle [Company=" + Company + "]";

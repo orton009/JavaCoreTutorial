@@ -1,6 +1,11 @@
 package optum.day2.optum.inheritance;
 
 public class TwoWheeler extends Vehicle {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public String toString() {
 		return super.toString()+"TwoWheeler [price=" + price + "]";

@@ -3,6 +3,10 @@ package optum.day2.optum.inheritance;
 import java.io.Serializable;
 
 public class Car extends FourWheeler implements Movable , Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int distance=0;
 	public Car() {}
 	public Car(String company , int price , String color) {
